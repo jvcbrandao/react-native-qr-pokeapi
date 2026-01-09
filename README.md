@@ -27,6 +27,22 @@ Aplicativo Android em React Native para leitura de QR Code e exibicao de dados d
 - Android Studio e SDK configurados
 - Dispositivo Android ou emulador
 
+## 📱 Ambiente de Desenvolvimento (Android Emulator)
+
+Este projeto foi desenvolvido e testado utilizando o **Android Emulator** com a seguinte configuração:
+
+- **Dispositivo:** Pixel 6  
+- **Sistema Operacional:** Android 14 (API 34 – UpsideDownCake)  
+- **Imagem do Sistema:** Google APIs Intel x86_64 Atom System Image  
+- **ABI:** x86_64 (com tradução arm64-v8a)  
+- **Serviços:** Google APIs  
+- **Resolução:** 1080 x 2400  
+- **Densidade:** 420 dpi  
+- **Tamanho da Tela:** 6.4”  
+
+> ⚠️ Recomenda-se utilizar um emulador com API 34 ou superior para garantir compatibilidade total com as funcionalidades do aplicativo, especialmente recursos de câmera.
+
+
 ## Como rodar em desenvolvimento
 
 1) Instale as dependencias:
@@ -123,7 +139,6 @@ src/
 - `npm start` - inicia o Metro
 - `npm run android` - roda no Android
 - `npm run lint` - lint
-- `npm test` - testes
 
 ## Observacoes
 
