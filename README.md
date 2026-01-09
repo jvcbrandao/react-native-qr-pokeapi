@@ -100,11 +100,6 @@ O app usa camera. A permissao esta em `android/app/src/main/AndroidManifest.xml`
 
 O QR Code deve conter um texto com o ID do Pokemon apos `: ` (dois caracteres, dois-pontos e espaco).
 
-Exemplos validos:
-
-- `pokemon: 25`
-- `id: 1`
-
 O app extrai o valor apos `: ` e consulta em:
 
 - https://pokeapi.co/api/v2/pokemon/{id}

@@ -1,11 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
-import {
-  Camera,
-  useCameraDevice,
-  useCameraPermission,
-  useCodeScanner,
-} from 'react-native-vision-camera';
+import {Camera, useCameraDevice, useCameraPermission, useCodeScanner } from 'react-native-vision-camera';
 import { fetchPokemonById } from '../services/pokeApi';
 import { useFocusEffect } from '@react-navigation/native';
 
